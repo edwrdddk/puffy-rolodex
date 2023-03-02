@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/puffy-rolodex/static/css/main.413e8178.css",
+    "main.js": "/puffy-rolodex/static/js/main.715a4365.js",
+    "static/js/787.bee243e6.chunk.js": "/puffy-rolodex/static/js/787.bee243e6.chunk.js",
+    "index.html": "/puffy-rolodex/index.html",
+    "main.413e8178.css.map": "/puffy-rolodex/static/css/main.413e8178.css.map",
+    "main.715a4365.js.map": "/puffy-rolodex/static/js/main.715a4365.js.map",
+    "787.bee243e6.chunk.js.map": "/puffy-rolodex/static/js/787.bee243e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.413e8178.css",
+    "static/js/main.715a4365.js"
+  ]
+}
