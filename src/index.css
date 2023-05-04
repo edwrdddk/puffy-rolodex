@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  background: linear-gradient(90deg, 
+  /* #ff0000,
+  #ffff00,
+  #ff00f3, #0033ff,
+  #ff00c4, #ff0000 */
+  #05BFDB, #1391a5, #6892e6, #49a7ac, #05BFDB
+  );
+  background-size: 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}

@@ -1,7 +1,7 @@
 .puffy-img {
   width: 240px;
   height: 240px;
-  border-radius: 5px;
+  border-radius: 13px;
 }
 
 .card-container {
@@ -9,7 +9,7 @@
   flex-direction: column;
   background-color: #91D8E4;
   /* border: 1px solid grey; */
-  border-radius: 5px;
+  border-radius: 13px;
   padding: 25px;
   cursor: pointer;
   -moz-osx-font-smoothing: grayscale;
