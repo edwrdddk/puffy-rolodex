@@ -1,7 +1,7 @@
 // import { Component } from 'react';
 import { useEffect, useState } from 'react';
 import CardList from './components/card-list/card-list';
-import SearchBox from './components/search-box/search-box';
+import SearchBox from './components/search-box/search-box.tsx';
 import './App.css';
 
 function App() {
