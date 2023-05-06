@@ -1,8 +1,13 @@
 // import { Component } from "react";
+import { Monster } from '../../App';
 import './card.css';
 
-function Card(props) {
-  const { id, name, website } = props.monster;
+type CardProps = {
+  monster: Monster;
+}
+
+const Card = ({ monster } : CardProps) => {
+  const { id, name, website } = monster;
   return (
     <div className='card-container' key={id}>
       <img src={process.env.PUBLIC_URL + '/imges/puf' + id + '.png'} alt={`monster ${name}`} className='puffy-img' />
