@@ -1,5 +1,5 @@
 // import { Component } from "react";
-import { ChangeEventHandler } from "react";
+import { ChangeEventHandler, ChangeEvent } from "react";
 import "./search-box.css";
 
 /* FUNCTIONAL COMPONENT TSX*/
@@ -23,7 +23,8 @@ import "./search-box.css";
 type SearchBoxProps = {
   className: string;
   placeholder?: string;
-  onChangeHandler: ChangeEventHandler<HTMLInputElement>; //type parameter (generic)
+  // onChangeHandler: ChangeEventHandler<HTMLInputElement>; //type parameter (generic)
+  onChangeHandler: (event: ChangeEvent<HTMLInputElement>) => void;
 };
 
 const SearchBox = (
